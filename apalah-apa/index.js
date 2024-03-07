@@ -7,7 +7,7 @@ describe('formatCurrencyIndonesian', () => {
   });
 
   it('should allow custom symbol', () => {
-    expect(toRupiah(50000, { symbol: 'EUR' })).to.equal('EUR 50.000,00');
+    expect(toRupiah(50000, { symbol: 'IDR' })).to.equal('IDR 50.000,00');
   });
 
   it('should allow informal formatting', () => {
@@ -15,7 +15,7 @@ describe('formatCurrencyIndonesian', () => {
   });
 
   it('should allow informal formatting with custom symbol', () => {
-    expect(toRupiah(50000, { formal: false, symbol: 'EUR' })).to.equal('EUR 50.000,00');
+    expect(toRupiah(50000, { formal: false, symbol: 'IDR' })).to.equal('IDR 50.000,00');
   });
 
   it('should format with custom dot and floating point', () => {
