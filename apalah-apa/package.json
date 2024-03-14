@@ -1,7 +1,7 @@
 {
   "name": "tea-desa",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "A simple utility library to format currency and convert numbers to words in Indonesian Rupiah.",
   "main": "src/formatCurrency.js",
   "scripts": {
